@@ -1,0 +1,32 @@
+@media (width <= 480px) {
+	.password-container {
+		/* width: 300px; */
+		width: 100%;
+		padding-inline: 10px;
+		padding-block: 10px;
+	}
+	.password-container h2 {
+		font-size: 18px;
+	}
+	.input {
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.input::placeholder {
+		font-size: 16px;
+	}
+	.alert-container {
+		width: 250px;
+		height: 30px;
+		font-size: 14px;
+		right: 6px;
+		bottom: 6px;
+	}
+	.btn {
+		font-size: 16px;
+	}
+	.input-container {
+		padding-inline: 5px;
+		padding-block: 10px;
+	}
+}
