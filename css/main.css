@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	/* margin: 0; */
+	font-family: 'Courier New', Courier, monospace;
+}
+.password-container {
+	background-color: var(--pink-color);
+	width: 500px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+}
+.password-container h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.input-container {
+	border: 2px solid var(--black-color);
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.input {
+	border: none;
+	background-color: transparent;
+	outline: none;
+	font-size: 24px;
+	letter-spacing: 4px;
+}
+.input::placeholder {
+	letter-spacing: 0;
+}
+.fa-copy {
+	cursor: pointer;
+	opacity: 0.3;
+	transition: opacity 0.5s ease;
+}
+.fa-copy:hover {
+	opacity: 0.7;
+}
+.btn {
+	background-color: var(--black-color);
+	color: var(--white-color);
+	border: none;
+	padding-block: 10px;
+	padding-inline: 20px;
+	border-radius: 5px;
+	margin-block: 10px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	background-color: var(--green-color);
+}
+.btn:active {
+	scale: 0.9;
+}
+.alert-container {
+	position: fixed;
+	width: 300px;
+	height: 50px;
+	background-color: var(--green-light-color);
+	right: 20px;
+	bottom: 20px;
+	border-radius: 10px;
+	box-shadow: var(--box-shadow);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	transition: all 0.5s ease;
+}
+.active.alert-container {
+	right: -300px;
+}
