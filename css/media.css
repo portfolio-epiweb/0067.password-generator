@@ -1,0 +1,31 @@
+@media (width <= 768px) {
+	.container {
+		width: 95%;
+		padding: 1.8rem;
+	}
+	.title {
+		font-size: 1.6rem;
+	}
+	.option label {
+		font-size: 0.9rem;
+	}
+}
+@media (width <= 478px) {
+	body {
+		padding-inline: 5px;
+	}
+	.container {
+		width: 100%;
+		padding-block: 1.5rem;
+		padding-inline: 1rem;
+	}
+	.options {
+		padding-inline: 0;
+	}
+	.option {
+		flex-wrap: wrap;
+	}
+	.range-container {
+		width: 100%;
+	}
+}

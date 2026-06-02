@@ -1,0 +1,15 @@
+:root {
+	--font-family-primary: 'Montserrat', sans-serif;
+	--main-color: #333;
+	--primary-color: #2b5876;
+	--secondary-color: #4e4376;
+	--weak-color: #fc8181;
+	--medium-color: #fbd38d;
+	--srtong-color: #68d391;
+	--white-color: #fff;
+	--bg-pas-color: #f8fafc;
+	--border-pas-color: #e2e8f0;
+	--password-color: #4a5568;
+	--copy-btn-color: #718096;
+	--strenght-meter-color: #edf2f7;
+}
